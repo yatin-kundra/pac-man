@@ -1,0 +1,86 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+    background-image: url('images/powe-peller.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+
+.blinky {
+    background-color: red;
+    border: 0px;
+    background-image: url('images/blinku.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0px;
+    background-image: url('images/pinky.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+
+.inky {
+    background-color: cyan;
+    border: 0px;
+    background-image: url('images/inky.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0px;
+    background-image: url('images/clyde.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    bottom: 0px;
+    background-image: url('images/scared-ghost.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+}
+.pac-man {
+    /* background-color: yellow; */
+    border-radius: 10px;
+    background-image: url('images/pacman.png'); /* Replace with your Pac-Man image */
+    background-size: cover;
+
+    /* styles.css */
+
+    /* width: 60px; /* Adjust size as needed */
+    /* height: 60px; */
+    
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; */
+    /* background-position: right; Adjust position of open mouth in your image */
+    /* transition: background-position 0.3s ease-in-out; */ 
+}
+
+
+
